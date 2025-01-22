@@ -23,19 +23,47 @@ Similar to [localtunnel](https://github.com/localtunnel/localtunnel) and [ngrok]
 
 ## Installation
 
-If you're on macOS, `bore` is packaged as a Homebrew core formula.
+### MacOS
+
+`bore` is packaged as a Homebrew core formula.
 
 ```shell
 brew install bore-cli
 ```
 
+### Linux
+
+#### Arch
+
+`bore` is available in the AUR as `bore`.
+
+```shell
+yay -S bore # or your favorite AUR helper
+```
+
+#### Gentoo
+
+`bore` is available in the [gentoo-zh](https://github.com/microcai/gentoo-zh) overlay.
+
+```shell
+sudo eselect repository enable gentoo-zh
+sudo emerge --sync gentoo-zh
+sudo emerge net-proxy/bore
+```
+
+### Binary
+
 Otherwise, the easiest way to install bore is from prebuilt binaries. These are available on the [releases page](https://github.com/ekzhang/bore/releases) for macOS, Windows, and Linux. Just unzip the appropriate file for your platform and move the `bore` executable into a folder on your PATH.
+
+### Cargo
 
 You also can build `bore` from source using [Cargo](https://doc.rust-lang.org/cargo/), the Rust package manager. This command installs the `bore` binary at a user-accessible path.
 
 ```shell
 cargo install bore-cli
 ```
+
+### Docker
 
 We also publish versioned Docker images for each release. The image is built for an AMD 64-bit architecture. They're tagged with the specific version and allow you to run the statically-linked `bore` binary from a minimal "scratch" container.
 
