@@ -23,7 +23,7 @@ Similar to [localtunnel](https://github.com/localtunnel/localtunnel) and [ngrok]
 
 ## Installation
 
-### MacOS
+### macOS
 
 `bore` is packaged as a Homebrew core formula.
 
@@ -51,7 +51,7 @@ sudo emerge --sync gentoo-zh
 sudo emerge net-proxy/bore
 ```
 
-### Binary distribution
+### Binary Distribution
 
 Otherwise, the easiest way to install bore is from prebuilt binaries. These are available on the [releases page](https://github.com/ekzhang/bore/releases) for macOS, Windows, and Linux. Just unzip the appropriate file for your platform and move the `bore` executable into a folder on your PATH.
 
