@@ -33,7 +33,7 @@ brew install bore-cli
 
 ### Linux
 
-#### Arch
+#### Arch Linux
 
 `bore` is available in the AUR as `bore`.
 
@@ -41,7 +41,7 @@ brew install bore-cli
 yay -S bore # or your favorite AUR helper
 ```
 
-#### Gentoo
+#### Gentoo Linux
 
 `bore` is available in the [gentoo-zh](https://github.com/microcai/gentoo-zh) overlay.
 
@@ -51,7 +51,7 @@ sudo emerge --sync gentoo-zh
 sudo emerge net-proxy/bore
 ```
 
-### Binary
+### Binary distribution
 
 Otherwise, the easiest way to install bore is from prebuilt binaries. These are available on the [releases page](https://github.com/ekzhang/bore/releases) for macOS, Windows, and Linux. Just unzip the appropriate file for your platform and move the `bore` executable into a folder on your PATH.
 
